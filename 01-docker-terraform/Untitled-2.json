@@ -1,0 +1,1557 @@
+{
+ "query": {
+  "$attr": {
+   "sessionId": "E453B6A95F5610DB6635A9BC7FC18927"
+  },
+  "sequence": [{
+   "transaction": [{
+    "$attr": {
+     "result": "posted",
+     "label": "SYS_1"
+    },
+    "branchSerial": "1",
+    "postingDate": "2025-01-14",
+    "postingTime": "2025-01-14 10:03:57 CST",
+    "step": [{
+     "record": {
+      "$attr": {
+       "label": "SYS_2"
+      },
+      "operation": {"option":"V","text":"View"},
+      "includeColumnMetadata": {"option":"Y","text":"Yes"},
+      "includeRowDescriptions": {"option":"Y","text":"Yes"},
+      "includeAllColumns": {"option":"Y","text":"Yes"},
+      "tableName": "PERSON",
+      "tableDescription": "Person",
+      "targetSerial": "46070",
+      "targetSerialResult": "46070",
+      "targetAccessKeyResult": "P:46070/",
+      "rowDescription": "Perez Rodriguez,Yanelys",
+      "field": [{
+       "$attr": {
+        "label": "SYS_2/_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "SERIAL",
+       "columnDescription": "Serial",
+       "dataType": {"option":"E","text":"Serial"},
+       "userInterfaceCategory": {"option":"S","text":"Suppress"},
+       "fmRestriction": {"option":"N","text":"Never"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "46070"
+      },{
+       "$attr": {
+        "label": "SYS_2/_ACCESS_KEY"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "ACCESS_KEY",
+       "columnDescription": "Access Key",
+       "dataType": {"option":"S","text":"Text"},
+       "calculation": {"option":"R","text":"Result"},
+       "userInterfaceCategory": {"option":"S","text":"Suppress"},
+       "fmRestriction": {"option":"N","text":"Never"},
+       "maximumLength": "200",
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "P:46070/"
+      },{
+       "$attr": {
+        "label": "SYS_2/_ROW_CHANGE_TIMESTAMP"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "ROW_CHANGE_TIMESTAMP",
+       "columnDescription": "Row Change Timestamp",
+       "dataType": {"option":"T","text":"Time"},
+       "nullAllowed": {"option":"N","text":"No"},
+       "userInterfaceCategory": {"option":"S","text":"Suppress"},
+       "fmRestriction": {"option":"N","text":"Never"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "2025-01-13 03:50:24 CST"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TITLE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TITLE",
+       "columnDescription": "Title",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Name",
+       "maximumLength": "10",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_FIRST_NAME"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "FIRST_NAME",
+       "columnDescription": "First Name",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Name",
+       "maximumLength": "20",
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "Yanelys"
+      },{
+       "$attr": {
+        "label": "SYS_2/_MIDDLE_NAME"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "MIDDLE_NAME",
+       "columnDescription": "Middle Name",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Name",
+       "maximumLength": "20",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_LAST_NAME"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "LAST_NAME",
+       "columnDescription": "Last Name",
+       "dataType": {"option":"S","text":"Text"},
+       "nullAllowed": {"option":"N","text":"No"},
+       "viewGroup": "Name",
+       "maximumLength": "80",
+       "textBlankAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "Perez Rodriguez"
+      },{
+       "$attr": {
+        "label": "SYS_2/_SUFFIX"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "SUFFIX",
+       "columnDescription": "Suffix",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Name",
+       "maximumLength": "10",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_NICKNAME"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "NICKNAME",
+       "columnDescription": "Nickname",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Name",
+       "maximumLength": "20",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_BIRTH_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "BIRTH_DATE",
+       "columnDescription": "Birth Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Personal",
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "1984-08-07"
+      },{
+       "$attr": {
+        "label": "SYS_2/_DEATH_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "DEATH_DATE",
+       "columnDescription": "Death Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Personal",
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_OWNERSHIP_CHANGE_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "OWNERSHIP_CHANGE_DATE",
+       "columnDescription": "Ownership Change Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Personal",
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_GENDER"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "GENDER",
+       "columnDescription": "Gender",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"M","text":"Male"}
+       },{
+        "value": {"option":"F","text":"Female"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_MARITAL_STATUS"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "MARITAL_STATUS",
+       "columnDescription": "Marital Status",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"M","text":"Married"}
+       },{
+        "value": {"option":"S","text":"Separated"}
+       },{
+        "value": {"option":"N","text":"Unmarried"}
+       },{
+        "value": {"option":"P","text":"Domestic partner"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_CITIZENSHIP_STATUS"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "CITIZENSHIP_STATUS",
+       "columnDescription": "Citizenship Status",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"C","text":"US citizen"}
+       },{
+        "value": {"option":"P","text":"Permanent resident alien"}
+       },{
+        "value": {"option":"O","text":"Other"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_DEMOGRAPHICS_FURNISHED"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "DEMOGRAPHICS_FURNISHED",
+       "columnDescription": "Demographics Furnished",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_ETHNICITY_HISPANIC_OR_LATINO"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "ETHNICITY_HISPANIC_OR_LATINO",
+       "columnDescription": "Ethnicity Hispanic Or Latino",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RACE_AMERICAN_INDIAN_OR_ALASKA"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RACE_AMERICAN_INDIAN_OR_ALASKA",
+       "columnDescription": "Race American Indian Or Alaska Native",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RACE_HAWAIIAN_OR_ISLANDER"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RACE_HAWAIIAN_OR_ISLANDER",
+       "columnDescription": "Race Native Hawaiian Or Other Pacific Islander",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RACE_ASIAN"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RACE_ASIAN",
+       "columnDescription": "Race Asian",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RACE_BLACK_OR_AFRICAN_AMERICAN"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RACE_BLACK_OR_AFRICAN_AMERICAN",
+       "columnDescription": "Race Black Or African American",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RACE_WHITE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RACE_WHITE",
+       "columnDescription": "Race White",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Personal",
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unspecified"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unspecified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TIN"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TIN",
+       "columnDescription": "TIN",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Tax",
+       "maximumLength": "9",
+       "textNumericOnly": {"option":"Y","text":"Yes"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "758674183"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TIN_TYPE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TIN_TYPE",
+       "columnDescription": "TIN Type",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Tax",
+       "defaultContents": "S",
+       "options": [{
+        "value": {"option":"S","text":"SSN"}
+       },{
+        "value": {"option":"E","text":"EIN"}
+       },{
+        "value": {"option":"I","text":"ITIN"}
+       },{
+        "value": {"option":"A","text":"ATIN"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "S",
+       "newContentsDescription": "SSN"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TIN_CERTIFICATION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TIN_CERTIFICATION",
+       "columnDescription": "TIN Certification",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Tax",
+       "defaultContents": "C",
+       "options": [{
+        "value": {"option":"C","text":"Certified"}
+       },{
+        "value": {"option":"N","text":"Not certified"}
+       },{
+        "value": {"option":"O","text":"One TIN notice from IRS"}
+       },{
+        "value": {"option":"T","text":"Two TIN notices from IRS within three years"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "C",
+       "newContentsDescription": "Certified"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TIN_APPLICATION_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TIN_APPLICATION_DATE",
+       "columnDescription": "TIN Application Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Tax",
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_BACKUP_WITHHOLD"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "BACKUP_WITHHOLD",
+       "columnDescription": "Backup Withhold",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Tax",
+       "defaultContents": "N",
+       "options": [{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       },{
+        "value": {"option":"E","text":"Exempt"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "N",
+       "newContentsDescription": "No"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TAX_REPORTING"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TAX_REPORTING",
+       "columnDescription": "Tax Reporting",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Tax",
+       "defaultContents": "-",
+       "options": [{
+        "value": {"option":"-","text":"Normal"}
+       },{
+        "value": {"option":"C","text":"Nonresident alien subject to 1042-S"}
+       },{
+        "value": {"option":"N","text":"No reporting"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "-",
+       "newContentsDescription": "Normal"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TAX_STATE_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TAX_STATE_SERIAL",
+       "columnDescription": "Tax State",
+       "dataType": {"option":"E","text":"Serial"},
+       "viewGroup": "Tax",
+       "automaticallySetOnInsert": {"option":"Y","text":"Yes"},
+       "referenceTableName": "TAX_STATE",
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "1",
+       "newContentsDescription": "Nebraska"
+      },{
+       "$attr": {
+        "label": "SYS_2/_FOREIGN_TIN"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "FOREIGN_TIN",
+       "columnDescription": "Foreign TIN",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Tax",
+       "maximumLength": "22",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_TAX_COUNTRY_CODE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TAX_COUNTRY_CODE",
+       "columnDescription": "Tax Country Code",
+       "dataType": {"option":"S","text":"Text"},
+       "viewGroup": "Tax",
+       "maximumLength": "2",
+       "textUpperCaseOnly": {"option":"Y","text":"Yes"},
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_TAX_COUNTRY"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TAX_COUNTRY",
+       "columnDescription": "Tax Country",
+       "dataType": {"option":"S","text":"Text"},
+       "calculation": {"option":"R","text":"Result"},
+       "viewGroup": "Tax",
+       "fmRestriction": {"option":"N","text":"Never"},
+       "maximumLength": "40",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_IRS_FORM_W8_EXPIRATION_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "IRS_FORM_W8_EXPIRATION_DATE",
+       "columnDescription": "IRS Form W-8 Expiration Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Tax",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_IRS_FORM_W9_RECEIVED_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "IRS_FORM_W9_RECEIVED_DATE",
+       "columnDescription": "IRS Form W-9 Received Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Tax",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_TAX_PERSON_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TAX_PERSON_SERIAL",
+       "columnDescription": "Tax Person",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Tax",
+       "referenceTableName": "PERSON",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_HOUSEHOLD_CATEGORY"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "HOUSEHOLD_CATEGORY",
+       "columnDescription": "Household Category",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Relationship",
+       "fmRestriction": {"option":"S","text":"System only"},
+       "defaultContents": "-",
+       "options": [{
+        "value": {"option":"-","text":"None"}
+       },{
+        "value": {"option":"H","text":"Head"}
+       },{
+        "value": {"option":"M","text":"Member"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "-",
+       "newContentsDescription": "None"
+      },{
+       "$attr": {
+        "label": "SYS_2/_HOUSEHOLD_PERSON_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "HOUSEHOLD_PERSON_SERIAL",
+       "columnDescription": "Household Head Person",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Relationship",
+       "referenceTableName": "PERSON",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_HOUSEHOLD_REASSIGNMENT"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "HOUSEHOLD_REASSIGNMENT",
+       "columnDescription": "Household Reassignment",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Relationship",
+       "defaultContents": "A",
+       "options": [{
+        "value": {"option":"A","text":"Allowed"}
+       },{
+        "value": {"option":"N","text":"Not allowed"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "A",
+       "newContentsDescription": "Allowed"
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_SERIAL",
+       "columnDescription": "Relationship",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Relationship",
+       "referenceTableName": "ACCOUNT_RELATIONSHIP",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_OVR_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_OVR_SERIAL",
+       "columnDescription": "Relationship Override",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Relationship",
+       "referenceTableName": "ACCOUNT_RELATIONSHIP",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_OVR_EFF_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_OVR_EFF_DATE",
+       "columnDescription": "Relationship Override Effective Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Relationship",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_OVR_EXP_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_OVR_EXP_DATE",
+       "columnDescription": "Relationship Override Expiration Date",
+       "dataType": {"option":"D","text":"Date"},
+       "viewGroup": "Relationship",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_OFF_USER_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_OFF_USER_SERIAL",
+       "columnDescription": "Relationship Officer",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Relationship",
+       "referenceTableName": "USER",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_RELATIONSHIP_OFF_RTN_ITEM_RVW"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "RELATIONSHIP_OFF_RTN_ITEM_RVW",
+       "columnDescription": "Relationship Officer Return Item Review",
+       "dataType": {"option":"O","text":"Option"},
+       "viewGroup": "Relationship",
+       "defaultContents": "N",
+       "options": [{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "N",
+       "newContentsDescription": "No"
+      },{
+       "$attr": {
+        "label": "SYS_2/_CHECK_HOLD_LEVEL_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "CHECK_HOLD_LEVEL_SERIAL",
+       "columnDescription": "Check Hold Level",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "viewGroup": "Relationship",
+       "referenceTableName": "CHECK_HOLD_LEVEL",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_CATEGORY"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "CATEGORY",
+       "columnDescription": "Category",
+       "dataType": {"option":"O","text":"Option"},
+       "columnHide": [{
+        "columnName": "OWNERSHIP_CHANGE_DATE",
+        "criteria": [{
+         "contents": "I"
+        }]
+       }],
+       "defaultContents": "I",
+       "options": [{
+        "value": {"option":"I","text":"Individual"}
+       },{
+        "value": {"option":"B","text":"Sole Proprietorship"}
+       },{
+        "value": {"option":"C","text":"Corporation"}
+       },{
+        "value": {"option":"S","text":"S Corporation"}
+       },{
+        "value": {"option":"P","text":"Partnership"}
+       },{
+        "value": {"option":"p","text":"Limited Partnership"}
+       },{
+        "value": {"option":"l","text":"LLP"}
+       },{
+        "value": {"option":"L","text":"LLC"}
+       },{
+        "value": {"option":"N","text":"NPO"}
+       },{
+        "value": {"option":"T","text":"Trust"}
+       },{
+        "value": {"option":"E","text":"Estate"}
+       },{
+        "value": {"option":"O","text":"Other entity"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "I",
+       "newContentsDescription": "Individual"
+      },{
+       "$attr": {
+        "label": "SYS_2/_TYPE_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "TYPE_SERIAL",
+       "columnDescription": "Type",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "referenceTableName": "PERSON_TYPE",
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "111",
+       "newContentsDescription": "General Member- Primary Owner"
+      },{
+       "$attr": {
+        "label": "SYS_2/_NAICS_SERIAL"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "NAICS_SERIAL",
+       "columnDescription": "NAICS",
+       "dataType": {"option":"E","text":"Serial"},
+       "nullAllowed": {"option":"Y","text":"Yes"},
+       "referenceTableName": "NAICS",
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_CTR_EXEMPTION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "CTR_EXEMPTION",
+       "columnDescription": "CTR Exemption",
+       "dataType": {"option":"O","text":"Option"},
+       "defaultContents": "N",
+       "options": [{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "N",
+       "newContentsDescription": "No"
+      },{
+       "$attr": {
+        "label": "SYS_2/_CTR_EXEMPTION_REVIEW_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "CTR_EXEMPTION_REVIEW_DATE",
+       "columnDescription": "CTR Exemption Review Date",
+       "dataType": {"option":"D","text":"Date"},
+       "operation": {"option":"G","text":"Get"}
+      },{
+       "$attr": {
+        "label": "SYS_2/_MARKETING_OPTION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "MARKETING_OPTION",
+       "columnDescription": "Marketing Option",
+       "dataType": {"option":"O","text":"Option"},
+       "defaultContents": "-",
+       "options": [{
+        "value": {"option":"-","text":"None"}
+       },{
+        "value": {"option":"AM","text":"Opt-out of all marketing"}
+       },{
+        "value": {"option":"CS","text":"Opt-out of cross-sell"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "-",
+       "newContentsDescription": "None"
+      },{
+       "$attr": {
+        "label": "SYS_2/_OFAC_RESTRICTION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "OFAC_RESTRICTION",
+       "columnDescription": "OFAC Restriction",
+       "dataType": {"option":"O","text":"Option"},
+       "fmRestriction": {"option":"S","text":"System only"},
+       "defaultContents": "-",
+       "options": [{
+        "value": {"option":"-","text":"Not checked"}
+       },{
+        "value": {"option":"Y","text":"Yes"}
+       },{
+        "value": {"option":"N","text":"No"}
+       },{
+        "value": {"option":"M","text":"Maybe"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "N",
+       "newContentsDescription": "No"
+      },{
+       "$attr": {
+        "label": "SYS_2/_OFAC_LAST_CHECK_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "OFAC_LAST_CHECK_DATE",
+       "columnDescription": "OFAC Last Check Date",
+       "dataType": {"option":"D","text":"Date"},
+       "fmRestriction": {"option":"S","text":"System only"},
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "2025-01-13"
+      },{
+       "$attr": {
+        "label": "SYS_2/_ACCESS_RESTRICTION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "ACCESS_RESTRICTION",
+       "columnDescription": "Access Restriction",
+       "dataType": {"option":"O","text":"Option"},
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unrestricted"}
+       },{
+        "value": {"option":"R","text":"Restricted"}
+       },{
+        "value": {"option":"E","text":"Employee"}
+       },{
+        "value": {"option":"F","text":"Employee related"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unrestricted"
+      },{
+       "$attr": {
+        "label": "SYS_2/_NOTE_RESTRICTION"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "NOTE_RESTRICTION",
+       "columnDescription": "Note Restriction",
+       "dataType": {"option":"O","text":"Option"},
+       "fmRestriction": {"option":"S","text":"System only"},
+       "defaultContents": "U",
+       "options": [{
+        "value": {"option":"U","text":"Unrestricted"}
+       },{
+        "value": {"option":"R","text":"Restricted"}
+       }],
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "U",
+       "newContentsDescription": "Unrestricted"
+      },{
+       "$attr": {
+        "label": "SYS_2/_LAST_FM_DATE"
+       },
+       "systemGenerated": {"option":"G","text":"Yes"},
+       "columnName": "LAST_FM_DATE",
+       "columnDescription": "Last FM Date",
+       "dataType": {"option":"D","text":"Date"},
+       "fmRestriction": {"option":"F","text":"Full"},
+       "futureAllowed": {"option":"N","text":"No"},
+       "operation": {"option":"G","text":"Get"},
+       "newContents": "2025-01-13"
+      }]
+     }
+    }]
+   }]
+  },{
+   "transaction": [{
+    "$attr": {
+     "result": "posted",
+     "label": "SYS_1"
+    },
+    "branchSerial": "1",
+    "postingDate": "2025-01-14",
+    "postingTime": "2025-01-14 10:03:57 CST",
+    "step": [{
+     "statementInquiry": {
+      "$attr": {
+       "label": "SYS_2"
+      },
+      "personSerial": "46070",
+      "beginningDate": "2024-12-14",
+      "endingDate": "2025-01-14",
+      "envelope": [{
+       "person": [{
+        "serial": "46070",
+        "firstName": "Yanelys",
+        "lastName": "Perez Rodriguez"
+       }],
+       "address": {
+        "serial": "64671",
+        "addressSerial": "53109",
+        "category": {"option":"R","text":"Residence"},
+        "street": "511 E 5th St",
+        "city": "Cozad",
+        "state": "NE",
+        "postalCode": "69130-2020",
+        "carrierRoute": "C002"
+       },
+       "statement": [{
+        "beginningStatementDate": "2024-12-14",
+        "endingStatementDate": "2025-01-14",
+        "account": [{
+         "serial": "25607",
+         "accountNumber": "0000037520",
+         "typeSerial": "1",
+         "typeDescription": "Membership- Standard",
+         "relationshipSerial": "1",
+         "relationshipDescription": "Standard",
+         "openDate": "2024-11-05",
+         "person": [{
+          "serial": "46070",
+          "personLinkCategory": {"option":"PR","text":"Primary owner"},
+          "firstName": "Yanelys",
+          "lastName": "Perez Rodriguez"
+         }],
+         "subAccount": [{
+          "share": {
+           "serial": "51228",
+           "id": "7000",
+           "description": "Reward Checking",
+           "category": {"option":"D","text":"Draft"},
+           "regDLimiting": {"option":"-","text":"None"},
+           "typeSerial": "25",
+           "typeDescription": "Reward Checking",
+           "branchSerial": "105",
+           "branchDescription": "Lexington Branch",
+           "statementCutoffGroupSerial": "1",
+           "statementCutoffGroupDescription": "Monthly",
+           "openDate": "2024-11-05",
+           "beginningStatementDate": "2024-12-14",
+           "endingStatementDate": "2025-01-14",
+           "beginning": {
+            "balance": "567.41"
+           },
+           "transaction": [{
+            "transactionSerial": "647591331",
+            "monetarySerial": "647591333",
+            "postingDate": "2024-12-14",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-156.75",
+            "principal": "-156.75",
+            "newBalance": "410.66",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "Wal-Mart Super Center",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "WM SUPERCENTER #637",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000270167",
+            "transactionDate": "2024-12-14"
+           },{
+            "transactionSerial": "647599524",
+            "monetarySerial": "647599526",
+            "postingDate": "2024-12-14",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-70.31",
+            "principal": "-70.31",
+            "newBalance": "340.35",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "0637 WAL-SAMS",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "Wal-Mart Super Center",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000047131257",
+            "transactionDate": "2024-12-14"
+           },{
+            "transactionSerial": "647860504",
+            "monetarySerial": "647860509",
+            "postingDate": "2024-12-15",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-25.00",
+            "principal": "-25.00",
+            "newBalance": "315.35",
+            "accountNumber": "4258070070874973",
+            "terminalId": "76007524",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "GOODWILL NE LEXINGTON",
+            "merchantType": "8398",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "435027900016",
+            "transactionDate": "2024-12-14"
+           },{
+            "transactionSerial": "650386278",
+            "monetarySerial": "650386284",
+            "postingDate": "2024-12-19",
+            "category": {"option":"D","text":"Deposit"},
+            "source": {"option":"a","text":"ACH"},
+            "grossAmount": "250.00",
+            "principal": "250.00",
+            "newBalance": "565.35",
+            "routingNumber": "304982400",
+            "accountNumber": "375207000",
+            "achCompanyName": "TYSON FOODS, INC",
+            "achCompanyId": "1710225165",
+            "achCompanyEntryDescription": "PAYROLL",
+            "achCompanyDiscretionaryData": "DIRECT DEPOSIT",
+            "achOriginatingDFIId": "08290087",
+            "achStandardEntryClassCode": "PPD",
+            "achTransactionCode": "22",
+            "achName": "Yanelys Perez Rodrigue",
+            "achTraceNumber": "082900874525622",
+            "settlementDate": "2024-12-19"
+           },{
+            "transactionSerial": "651851649",
+            "monetarySerial": "651851654",
+            "postingDate": "2024-12-21",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-53.71",
+            "principal": "-53.71",
+            "newBalance": "511.64",
+            "accountNumber": "4258070070874973",
+            "terminalId": "6HM3KONK",
+            "terminalCity": "MISSISSAUGA",
+            "terminalState": "ON",
+            "terminalCountryCode": "CA",
+            "merchantName": "LEMARGOENVIO8888888908",
+            "merchantType": "8734",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "435675500004",
+            "transactionDate": "2024-12-21"
+           },{
+            "transactionSerial": "651851649",
+            "monetarySerial": "651851662",
+            "postingDate": "2024-12-21",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"F","text":"Fee"},
+            "description": "Int Debit Card Trans Conversion Fee",
+            "grossAmount": "-1.07",
+            "principal": "-1.07",
+            "newBalance": "510.57",
+            "terminalId": "6HM3KONK",
+            "terminalCity": "MISSISSAUGA",
+            "terminalState": "ON",
+            "terminalCountryCode": "CA",
+            "merchantName": "LEMARGOENVIO8888888908",
+            "feeSerial": "106"
+           },{
+            "transactionSerial": "653563001",
+            "monetarySerial": "653563003",
+            "postingDate": "2024-12-24",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-29.67",
+            "principal": "-29.67",
+            "newBalance": "480.90",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "321 EAST 8TH",
+            "terminalId": "59341901",
+            "terminalCity": "COZAD",
+            "terminalState": "NE",
+            "merchantName": "SONNY'S SUPER FOOD",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000442077",
+            "transactionDate": "2024-12-24"
+           },{
+            "transactionSerial": "653576587",
+            "monetarySerial": "653576589",
+            "postingDate": "2024-12-24",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-91.19",
+            "principal": "-91.19",
+            "newBalance": "389.71",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "DG 08387209 S MERIDIAN",
+            "terminalId": "30838701",
+            "terminalCity": "COZAD",
+            "terminalState": "NE",
+            "merchantName": "DOLLAR-GENERAL #8387",
+            "merchantType": "5310",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000293116",
+            "transactionDate": "2024-12-24"
+           },{
+            "transactionSerial": "653952609",
+            "monetarySerial": "653952614",
+            "postingDate": "2024-12-25",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-21.13",
+            "principal": "-21.13",
+            "newBalance": "368.58",
+            "accountNumber": "4258070070874973",
+            "terminalId": "5",
+            "terminalCity": "COZAD",
+            "terminalState": "NE",
+            "merchantName": "CORK AND CAP",
+            "merchantType": "5921",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "436027000001",
+            "transactionDate": "2024-12-24"
+           },{
+            "transactionSerial": "654222730",
+            "monetarySerial": "654222736",
+            "postingDate": "2024-12-26",
+            "category": {"option":"D","text":"Deposit"},
+            "source": {"option":"a","text":"ACH"},
+            "grossAmount": "250.00",
+            "principal": "250.00",
+            "newBalance": "618.58",
+            "routingNumber": "304982400",
+            "accountNumber": "375207000",
+            "achCompanyName": "TYSON FOODS, INC",
+            "achCompanyId": "1710225165",
+            "achCompanyEntryDescription": "PAYROLL",
+            "achCompanyDiscretionaryData": "DIRECT DEPOSIT",
+            "achOriginatingDFIId": "08290087",
+            "achStandardEntryClassCode": "PPD",
+            "achTransactionCode": "22",
+            "achName": "Yanelys Perez Rodrigue",
+            "achTraceNumber": "082900874730991",
+            "settlementDate": "2024-12-26"
+           },{
+            "transactionSerial": "655721201",
+            "monetarySerial": "655721203",
+            "postingDate": "2024-12-28",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-79.43",
+            "principal": "-79.43",
+            "newBalance": "539.15",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "Wal-Mart Super Center",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "WM SUPERCENTER #637",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000636104",
+            "transactionDate": "2024-12-28"
+           },{
+            "transactionSerial": "655721320",
+            "monetarySerial": "655721322",
+            "postingDate": "2024-12-28",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-14.85",
+            "principal": "-14.85",
+            "newBalance": "524.30",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "Wal-Mart Super Center",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "WM SUPERCENTER #637",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000286283",
+            "transactionDate": "2024-12-28"
+           },{
+            "transactionSerial": "655727456",
+            "monetarySerial": "655727458",
+            "postingDate": "2024-12-28",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-55.52",
+            "principal": "-55.52",
+            "newBalance": "468.78",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "0637 WAL-SAMS",
+            "terminalId": "06370022",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "Wal-Mart Super Center",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000016022650",
+            "transactionDate": "2024-12-28"
+           },{
+            "transactionSerial": "655733563",
+            "monetarySerial": "655733565",
+            "postingDate": "2024-12-28",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-48.69",
+            "principal": "-48.69",
+            "newBalance": "420.09",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "800 N WASHINGTON ST",
+            "terminalId": "71768001",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "FAMILY DOLLAR",
+            "merchantType": "5331",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000005488",
+            "transactionDate": "2024-12-28"
+           },{
+            "transactionSerial": "655922109",
+            "monetarySerial": "655922114",
+            "postingDate": "2024-12-29",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-56.21",
+            "principal": "-56.21",
+            "newBalance": "363.88",
+            "accountNumber": "4258070070874973",
+            "terminalId": "03015601",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "LA VAZQUEZ MARKET",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "436427123647",
+            "transactionDate": "2024-12-28"
+           },{
+            "transactionSerial": "655961429",
+            "monetarySerial": "655961431",
+            "postingDate": "2024-12-29",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-12.22",
+            "principal": "-12.22",
+            "newBalance": "351.66",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "2808 PLUM CREEK PKWY",
+            "terminalId": "70795001",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "DOLLAR TREE",
+            "merchantType": "5331",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000027748",
+            "transactionDate": "2024-12-29"
+           },{
+            "transactionSerial": "656404295",
+            "monetarySerial": "656404297",
+            "postingDate": "2024-12-30",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-99.52",
+            "principal": "-99.52",
+            "newBalance": "252.14",
+            "accountNumber": "4258070070874973",
+            "terminalId": "97574303",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "PLUM CREEK DENTISTRY",
+            "merchantType": "8021",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "436516421432",
+            "transactionDate": "2024-12-30"
+           },{
+            "transactionSerial": "656453562",
+            "monetarySerial": "656453564",
+            "postingDate": "2024-12-30",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-77.47",
+            "principal": "-77.47",
+            "newBalance": "174.67",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "800 N WASHINGTON ST",
+            "terminalId": "71768001",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "FAMILY DOLLAR",
+            "merchantType": "5331",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000005852",
+            "transactionDate": "2024-12-30"
+           },{
+            "transactionSerial": "657754314",
+            "monetarySerial": "657754316",
+            "postingDate": "2024-12-31",
+            "category": {"option":"D","text":"Deposit"},
+            "source": {"option":"V","text":"Dividend"},
+            "grossAmount": "0.01",
+            "principal": "0.01",
+            "newBalance": "174.68",
+            "apyeRate": "0.030",
+            "apyeAverageBalance": "345.47",
+            "apyePeriodStartDate": "2024-12-01",
+            "apyePeriodEndDate": "2024-12-31"
+           },{
+            "transactionSerial": "658516276",
+            "monetarySerial": "658516283",
+            "postingDate": "2025-01-02",
+            "category": {"option":"D","text":"Deposit"},
+            "source": {"option":"a","text":"ACH"},
+            "grossAmount": "250.00",
+            "principal": "250.00",
+            "newBalance": "424.68",
+            "routingNumber": "304982400",
+            "accountNumber": "375207000",
+            "achCompanyName": "TYSON FOODS, INC",
+            "achCompanyId": "1710225165",
+            "achCompanyEntryDescription": "PAYROLL",
+            "achCompanyDiscretionaryData": "DIRECT DEPOSIT",
+            "achOriginatingDFIId": "08290087",
+            "achStandardEntryClassCode": "PPD",
+            "achTransactionCode": "22",
+            "achName": "Yanelys Perez Rodrigue",
+            "achTraceNumber": "082900874892069",
+            "settlementDate": "2025-01-02"
+           },{
+            "transactionSerial": "660280663",
+            "monetarySerial": "660280665",
+            "postingDate": "2025-01-04",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-26.36",
+            "principal": "-26.36",
+            "newBalance": "398.32",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "110 S MERIDIAN AVE",
+            "terminalId": "84000200",
+            "terminalCity": "COZAD",
+            "terminalState": "NE",
+            "merchantName": "TRACTOR SUPPLY #2084",
+            "merchantType": "5599",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000404530",
+            "transactionDate": "2025-01-04"
+           },{
+            "transactionSerial": "660532493",
+            "monetarySerial": "660532495",
+            "postingDate": "2025-01-05",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-84.44",
+            "principal": "-84.44",
+            "newBalance": "313.88",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "Wal-Mart Super Center",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "WM SUPERCENTER #637",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000381238",
+            "transactionDate": "2025-01-05"
+           },{
+            "transactionSerial": "660549611",
+            "monetarySerial": "660549613",
+            "postingDate": "2025-01-05",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-47.08",
+            "principal": "-47.08",
+            "newBalance": "266.80",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "800 N WASHINGTON ST",
+            "terminalId": "71768001",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "FAMILY DOLLAR",
+            "merchantType": "5331",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000000007197",
+            "transactionDate": "2025-01-05"
+           },{
+            "transactionSerial": "661002818",
+            "monetarySerial": "661002820",
+            "postingDate": "2025-01-06",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-42.43",
+            "principal": "-42.43",
+            "newBalance": "224.37",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "0637 WAL-SAMS",
+            "terminalId": "06370010",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "Wal-Mart Super Center",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000066308320",
+            "transactionDate": "2025-01-06"
+           },{
+            "transactionSerial": "662497368",
+            "monetarySerial": "662497373",
+            "postingDate": "2025-01-08",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"C","text":"Credit or debit card"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-6.07",
+            "principal": "-6.07",
+            "newBalance": "218.30",
+            "accountNumber": "4258070070874973",
+            "terminalId": "59344694",
+            "terminalCity": "COZAD",
+            "terminalState": "NE",
+            "merchantName": "SERVICE DRUG STORE -2510",
+            "merchantType": "5912",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "500828300593",
+            "transactionDate": "2025-01-08"
+           },{
+            "transactionSerial": "662618198",
+            "monetarySerial": "662618205",
+            "postingDate": "2025-01-09",
+            "category": {"option":"D","text":"Deposit"},
+            "source": {"option":"a","text":"ACH"},
+            "grossAmount": "250.00",
+            "principal": "250.00",
+            "newBalance": "468.30",
+            "routingNumber": "304982400",
+            "accountNumber": "375207000",
+            "achCompanyName": "TYSON FOODS, INC",
+            "achCompanyId": "1710225165",
+            "achCompanyEntryDescription": "PAYROLL",
+            "achCompanyDiscretionaryData": "DIRECT DEPOSIT",
+            "achOriginatingDFIId": "08290087",
+            "achStandardEntryClassCode": "PPD",
+            "achTransactionCode": "22",
+            "achName": "Yanelys Perez Rodrigue",
+            "achTraceNumber": "082900875101367",
+            "settlementDate": "2025-01-09"
+           },{
+            "transactionSerial": "664107325",
+            "monetarySerial": "664107327",
+            "postingDate": "2025-01-11",
+            "category": {"option":"W","text":"Withdrawal"},
+            "source": {"option":"O","text":"POS"},
+            "subCategory": {"option":"P","text":"Card purchase"},
+            "grossAmount": "-24.59",
+            "principal": "-24.59",
+            "newBalance": "443.71",
+            "accountNumber": "4258070070874973",
+            "terminalLocation": "0637 WAL-SAMS",
+            "terminalId": "06370027",
+            "terminalCity": "LEXINGTON",
+            "terminalState": "NE",
+            "merchantName": "Wal-Mart Super Center",
+            "merchantType": "5411",
+            "maskedCardNumber": "4258070070874973",
+            "transactionReference": "000049215066",
+            "transactionDate": "2025-01-11"
+           }],
+           "ending": {
+            "balance": "443.71"
+           },
+           "daysInCycle": "32",
+           "averageDailyLedgerBalance": "389.01",
+           "depositCountPeriod": "5",
+           "depositAmountPeriod": "1000.01",
+           "withdrawalCountPeriod": "22",
+           "withdrawalAmountPeriod": "1123.71",
+           "overdraftFeeLastYear": "25.00",
+           "dividendLastYear": "0.01"
+          }
+         },{
+          "share": {
+           "serial": "51227",
+           "id": "9900",
+           "description": "Share Savings Membership",
+           "category": {"option":"S","text":"Share"},
+           "regDLimiting": {"option":"-","text":"None"},
+           "typeSerial": "1",
+           "typeDescription": "Share Savings Membership",
+           "branchSerial": "105",
+           "branchDescription": "Lexington Branch",
+           "statementCutoffGroupSerial": "2",
+           "statementCutoffGroupDescription": "Quarterly",
+           "openDate": "2024-11-05",
+           "beginningStatementDate": "2024-12-14",
+           "endingStatementDate": "2025-01-14",
+           "beginning": {
+            "balance": "5.00"
+           },
+           "ending": {
+            "balance": "5.00"
+           },
+           "daysInCycle": "32",
+           "averageDailyLedgerBalance": "5.00"
+          }
+         }],
+         "otherDividendLastYear": "0.01",
+         "otherShareBalance": "448.71",
+         "totalDividendLastYear": "0.01",
+         "totalShareBalance": "448.71",
+         "shareCategoryBalance": "5.00",
+         "draftCategoryBalance": "443.71"
+        }]
+       }]
+      }]
+     }
+    }]
+   }]
+  }]
+ }
+}

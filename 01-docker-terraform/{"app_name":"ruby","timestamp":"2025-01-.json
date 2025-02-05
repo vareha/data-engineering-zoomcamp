@@ -1,0 +1,893 @@
+{"app_name":"ruby","timestamp":"2025-01-14 18:44:16.00 +0000","app_version":"","slice_uuid":"6d949c11-6bcd-30e2-a043-02da916bb93a","build_version":"","platform":1,"share_with_app_devs":0,"is_first_party":1,"bug_type":"309","os_version":"macOS 14.6.1 (23G93)","roots_installed":0,"incident_id":"69FA18D1-80DA-4407-A376-B6FB56918936","name":"ruby"}
+{
+  "uptime" : 8200,
+  "procRole" : "Unspecified",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "Mac15,11",
+  "coalitionID" : 679,
+  "osVersion" : {
+    "train" : "macOS 14.6.1",
+    "build" : "23G93",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2025-01-14 18:44:15.4098 +0000",
+  "codeSigningMonitor" : 1,
+  "incident" : "69FA18D1-80DA-4407-A376-B6FB56918936",
+  "pid" : 45678,
+  "translated" : true,
+  "cpuType" : "X86-64",
+  "roots_installed" : 0,
+  "bug_type" : "309",
+  "procLaunch" : "2025-01-14 18:44:05.7482 +0000",
+  "procStartAbsTime" : 197548469067,
+  "procExitAbsTime" : 197780332521,
+  "procName" : "ruby",
+  "procPath" : "\/Users\/USER\/*\/ruby",
+  "parentProc" : "ruby",
+  "parentPid" : 45664,
+  "coalitionName" : "com.googlecode.iterm2",
+  "crashReporterKey" : "451338F0-E1D0-87E4-54F7-FF70BFC9E5E4",
+  "responsiblePid" : 660,
+  "responsibleProc" : "iTerm2",
+  "codeSigningID" : "",
+  "codeSigningTeamID" : "",
+  "codeSigningValidationCategory" : 0,
+  "codeSigningTrustLevel" : 4294967295,
+  "wakeTime" : 316,
+  "sleepWakeUUID" : "4A0BA17C-E067-41E6-BED9-8D76D6F85071",
+  "sip" : "enabled",
+  "vmRegionInfo" : "0x10fa1da6a is not in any region.  Bytes after previous region: 2667  Bytes before following region: 9622\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      mapped file                 10f9ff000-10fa1d000    [  120K] r--\/rwx SM=COW  Object_id=f8a3f6e3\n--->  GAP OF 0x3000 BYTES\n      VM_ALLOCATE                 10fa20000-10fa24000    [   16K] rw-\/rwx SM=COW  ",
+  "exception" : {"codes":"0x0000000000000001, 0x000000010fa1da6a","rawCodes":[1,4557232746],"type":"EXC_BAD_ACCESS","signal":"SIGABRT","subtype":"KERN_INVALID_ADDRESS at 0x000000010fa1da6a"},
+  "termination" : {"flags":0,"code":6,"namespace":"SIGNAL","indicator":"Abort trap: 6","byProc":"ruby","byPid":45678},
+  "vmregioninfo" : "0x10fa1da6a is not in any region.  Bytes after previous region: 2667  Bytes before following region: 9622\n      REGION TYPE                    START - END         [ VSIZE] PRT\/MAX SHRMOD  REGION DETAIL\n      mapped file                 10f9ff000-10fa1d000    [  120K] r--\/rwx SM=COW  Object_id=f8a3f6e3\n--->  GAP OF 0x3000 BYTES\n      VM_ALLOCATE                 10fa20000-10fa24000    [   16K] rw-\/rwx SM=COW  ",
+  "asi" : {"libsystem_c.dylib":["crashed on child side of fork pre-exec"]},
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "faultingThread" : 15,
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 8631398400,
+    "size" : 593920,
+    "uuid" : "18f658dd-20f3-324d-b7ac-8a9c60b574b3",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4722946048,
+    "CFBundleShortVersionString" : "4.0",
+    "CFBundleIdentifier" : "com.apple.kerberos.sckerberosconfig",
+    "size" : 8192,
+    "uuid" : "2a0b0e91-e807-3713-bea2-7b10e845bae3",
+    "path" : "\/System\/Library\/KerberosPlugins\/KerberosFrameworkPlugins\/SCKerberosConfig.bundle\/Contents\/MacOS\/SCKerberosConfig",
+    "name" : "SCKerberosConfig",
+    "CFBundleVersion" : "1"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4722896896,
+    "CFBundleShortVersionString" : "4.0",
+    "CFBundleIdentifier" : "com.apple.kerberos.reachability",
+    "size" : 8192,
+    "uuid" : "60baff33-ccdb-37c9-94e1-f54e4c858371",
+    "path" : "\/System\/Library\/KerberosPlugins\/KerberosFrameworkPlugins\/Reachability.bundle\/Contents\/MacOS\/Reachability",
+    "name" : "Reachability",
+    "CFBundleVersion" : "2.0"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4722847744,
+    "CFBundleShortVersionString" : "14.6",
+    "CFBundleIdentifier" : "com.apple.heimdalodpac",
+    "size" : 8192,
+    "uuid" : "82396af3-375c-3028-aee4-dec2dd3a1d58",
+    "path" : "\/System\/Library\/KerberosPlugins\/KerberosFrameworkPlugins\/heimdalodpac.bundle\/Contents\/MacOS\/heimdalodpac",
+    "name" : "heimdalodpac",
+    "CFBundleVersion" : "205.0.3"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4722798592,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.AppSSO.AppSSOConfigPlugin-macOS",
+    "size" : 8192,
+    "uuid" : "36fa3c98-18e3-3c00-9498-914decee288a",
+    "path" : "\/System\/Library\/KerberosPlugins\/KerberosFrameworkPlugins\/AppSSOConfigPlugin_macOS.bundle\/Contents\/MacOS\/AppSSOConfigPlugin_macOS",
+    "name" : "AppSSOConfigPlugin_macOS",
+    "CFBundleVersion" : "1"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4722163712,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.AppSSO.AppSSOLocatePlugin-macOS",
+    "size" : 8192,
+    "uuid" : "9b78fc93-5231-3e96-bba5-a68b2a56fa8c",
+    "path" : "\/System\/Library\/KerberosPlugins\/KerberosFrameworkPlugins\/AppSSOLocatePlugin_macOS.bundle\/Contents\/MacOS\/AppSSOLocatePlugin_macOS",
+    "name" : "AppSSOLocatePlugin_macOS",
+    "CFBundleVersion" : "1"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4712284160,
+    "size" : 45056,
+    "uuid" : "11f9941a-9ecd-3f27-8dde-0487f32fdf69",
+    "path" : "\/Users\/USER\/*\/nio4r_ext.bundle",
+    "name" : "nio4r_ext.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4475650048,
+    "size" : 4096,
+    "uuid" : "df1d4538-235c-3b97-b2f2-ad7a1aeae600",
+    "path" : "\/Users\/USER\/*\/cruby.bundle",
+    "name" : "cruby.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4691443712,
+    "size" : 4096,
+    "uuid" : "dcfb411a-2d6f-3d21-807d-18d9f9895852",
+    "path" : "\/Users\/USER\/*\/utf_16le.bundle",
+    "name" : "utf_16le.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4659970048,
+    "size" : 4096,
+    "uuid" : "60b61585-f12c-35e4-bf80-5df3835bb26f",
+    "path" : "\/Users\/USER\/*\/iso_8859_1.bundle",
+    "name" : "iso_8859_1.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4659691520,
+    "size" : 16384,
+    "uuid" : "d7ff0464-088a-3f20-ae84-1b2d94ddf7d7",
+    "path" : "\/Users\/USER\/*\/stackprof.bundle",
+    "name" : "stackprof.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4659539968,
+    "size" : 28672,
+    "uuid" : "5e99363b-c0d2-3306-9b95-ebe66720658f",
+    "path" : "\/Users\/USER\/*\/fiddle.bundle",
+    "name" : "fiddle.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4658941952,
+    "size" : 16384,
+    "uuid" : "10a6f3c4-4667-32bd-898a-d51d9f3a6211",
+    "path" : "\/Users\/USER\/*\/console.bundle",
+    "name" : "console.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4659052544,
+    "size" : 204800,
+    "uuid" : "c3b54b40-0d7b-3541-bb31-2543c0412c0f",
+    "path" : "\/Users\/USER\/*\/ripper.bundle",
+    "name" : "ripper.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4657659904,
+    "size" : 20480,
+    "uuid" : "d94da9ed-c3d8-36ca-a592-5d259b90f5b8",
+    "path" : "\/Users\/USER\/*\/readline.bundle",
+    "name" : "readline.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4658032640,
+    "size" : 159744,
+    "uuid" : "bdad3078-89fa-3871-86b3-dd3e280bc313",
+    "path" : "\/usr\/local\/Cellar\/readline\/8.2.13\/lib\/libreadline.8.2.dylib",
+    "name" : "libreadline.8.2.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4657319936,
+    "size" : 24576,
+    "uuid" : "1f8c270a-0e53-32c6-8015-c65b2dc383fe",
+    "path" : "\/Users\/USER\/*\/byebug.bundle",
+    "name" : "byebug.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4619124736,
+    "size" : 315392,
+    "uuid" : "7c6c0dd9-d891-385d-8cdd-f6789dad0d00",
+    "path" : "\/Users\/USER\/*\/RMagick2.bundle",
+    "name" : "RMagick2.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4640727040,
+    "size" : 1789952,
+    "uuid" : "74184ad8-c106-3567-9ddf-155474ec032d",
+    "path" : "\/usr\/local\/Cellar\/imagemagick\/7.1.1-43\/lib\/libMagickCore-7.Q16HDRI.10.dylib",
+    "name" : "libMagickCore-7.Q16HDRI.10.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4620976128,
+    "size" : 475136,
+    "uuid" : "1c0b495a-bf6c-33c6-b9a3-29989f0dd8d7",
+    "path" : "\/usr\/local\/Cellar\/libomp\/19.1.6\/lib\/libomp.dylib",
+    "name" : "libomp.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4645097472,
+    "size" : 262144,
+    "uuid" : "f0b1d472-d96c-3a76-bcaa-d876e0e0f3c2",
+    "path" : "\/usr\/local\/Cellar\/little-cms2\/2.16\/lib\/liblcms2.2.dylib",
+    "name" : "liblcms2.2.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4618678272,
+    "size" : 40960,
+    "uuid" : "71e03811-de1a-32c9-b396-562d126c5373",
+    "path" : "\/usr\/local\/Cellar\/liblqr\/0.4.3\/lib\/liblqr-1.0.dylib",
+    "name" : "liblqr-1.0.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4647084032,
+    "size" : 962560,
+    "uuid" : "c16e1e4c-433d-3ceb-85c5-53356310744b",
+    "path" : "\/usr\/local\/Cellar\/glib\/2.82.4\/lib\/libglib-2.0.0.dylib",
+    "name" : "libglib-2.0.0.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4620292096,
+    "size" : 212992,
+    "uuid" : "b32af960-6c9e-3f86-90a5-e65c114b454c",
+    "path" : "\/usr\/local\/Cellar\/fontconfig\/2.15.0\/lib\/libfontconfig.1.dylib",
+    "name" : "libfontconfig.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4649365504,
+    "size" : 524288,
+    "uuid" : "06e0bb49-035a-32f5-a942-6cbddc60595d",
+    "path" : "\/usr\/local\/Cellar\/freetype\/2.13.3\/lib\/libfreetype.6.dylib",
+    "name" : "libfreetype.6.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4618825728,
+    "size" : 24576,
+    "uuid" : "3011768b-e07b-3812-a2dc-2376903b4c67",
+    "path" : "\/usr\/local\/Cellar\/libtool\/2.5.4\/lib\/libltdl.7.dylib",
+    "name" : "libltdl.7.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4645953536,
+    "size" : 540672,
+    "uuid" : "5d719a8b-f3c2-3d6e-ac52-11587d7a08d3",
+    "path" : "\/usr\/local\/Cellar\/pcre2\/10.44\/lib\/libpcre2-8.0.dylib",
+    "name" : "libpcre2-8.0.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4622643200,
+    "size" : 143360,
+    "uuid" : "238a3925-32b2-3c57-9659-306cd2995fcf",
+    "path" : "\/usr\/local\/Cellar\/libpng\/1.6.45\/lib\/libpng16.16.dylib",
+    "name" : "libpng16.16.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4623396864,
+    "size" : 6598656,
+    "uuid" : "7dcfa67a-a7b5-37db-be04-dde06e1edba2",
+    "path" : "\/Users\/USER\/*\/grpc_c.bundle",
+    "name" : "grpc_c.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4615532544,
+    "size" : 229376,
+    "uuid" : "071945c0-0508-3973-90ff-2e8b74d37893",
+    "path" : "\/Users\/USER\/*\/protobuf_c.bundle",
+    "name" : "protobuf_c.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4610043904,
+    "size" : 4096,
+    "uuid" : "8c834cca-5706-3de7-8176-476d6b378c45",
+    "path" : "\/Users\/USER\/*\/utf_32be.bundle",
+    "name" : "utf_32be.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4609994752,
+    "size" : 4096,
+    "uuid" : "b67eccaa-d6ec-3d57-9b58-1e044fc7124c",
+    "path" : "\/Users\/USER\/*\/utf_16be.bundle",
+    "name" : "utf_16be.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4609941504,
+    "size" : 8192,
+    "uuid" : "578c5d82-50fd-31bf-8988-fcf4aafdc03f",
+    "path" : "\/Users\/USER\/*\/shift_jis.bundle",
+    "name" : "shift_jis.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4609884160,
+    "size" : 8192,
+    "uuid" : "29a9c20d-2e3c-3a25-aca7-97e674bf0d9a",
+    "path" : "\/Users\/USER\/*\/euc_jp.bundle",
+    "name" : "euc_jp.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4610244608,
+    "size" : 245760,
+    "uuid" : "bae23fdf-0a74-33ae-a0c8-907cdc029f75",
+    "path" : "\/Users\/USER\/*\/nkf.bundle",
+    "name" : "nkf.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4599922688,
+    "size" : 12288,
+    "uuid" : "1213b55c-b0c7-3d3c-aa5c-9e22c7d51155",
+    "path" : "\/Users\/USER\/*\/sha2.bundle",
+    "name" : "sha2.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4599742464,
+    "size" : 8192,
+    "uuid" : "d5227422-9f54-3f4a-b009-d615c2e9306f",
+    "path" : "\/Users\/USER\/*\/md5.bundle",
+    "name" : "md5.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4576968704,
+    "size" : 8192,
+    "uuid" : "1286579d-5875-3240-bc55-91c9047bad74",
+    "path" : "\/Users\/USER\/*\/sha1.bundle",
+    "name" : "sha1.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4570181632,
+    "size" : 20480,
+    "uuid" : "2f5ed859-e566-3229-accf-cc42554021dc",
+    "path" : "\/Users\/USER\/*\/puma_http11.bundle",
+    "name" : "puma_http11.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4568317952,
+    "size" : 155648,
+    "uuid" : "6522de4b-126a-3c73-9c12-6cfe7dc186d7",
+    "path" : "\/Users\/USER\/*\/pg_ext.bundle",
+    "name" : "pg_ext.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4569202688,
+    "size" : 241664,
+    "uuid" : "90e422e9-a010-3365-b00c-2e7ae30d5aac",
+    "path" : "\/usr\/local\/Cellar\/postgresql@15\/15.10\/lib\/libpq.5.15.dylib",
+    "name" : "libpq.5.15.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4568907776,
+    "size" : 94208,
+    "uuid" : "991a6a1a-a51d-31c6-9072-dbb5bd041bf1",
+    "path" : "\/usr\/local\/Cellar\/gettext\/0.23.1\/lib\/libintl.8.dylib",
+    "name" : "libintl.8.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4577648640,
+    "size" : 585728,
+    "uuid" : "93ea9cf5-139c-3f44-b554-be4561b7aefc",
+    "path" : "\/usr\/local\/Cellar\/openssl@3\/3.4.0\/lib\/libssl.3.dylib",
+    "name" : "libssl.3.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4584255488,
+    "size" : 3272704,
+    "uuid" : "43b17605-27d9-3080-addc-53b89facc57d",
+    "path" : "\/usr\/local\/Cellar\/openssl@3\/3.4.0\/lib\/libcrypto.3.dylib",
+    "name" : "libcrypto.3.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4570316800,
+    "size" : 2748416,
+    "uuid" : "d0e0e657-d683-3888-8344-e99b500f965d",
+    "path" : "\/Users\/USER\/*\/nokogiri.bundle",
+    "name" : "nokogiri.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4566827008,
+    "size" : 12288,
+    "uuid" : "0256aae5-875d-3dc3-8173-517794c6e8a8",
+    "path" : "\/Users\/USER\/*\/cparse.bundle",
+    "name" : "cparse.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4557492224,
+    "size" : 94208,
+    "uuid" : "55d57841-dc5d-37d0-9468-436a91eafc28",
+    "path" : "\/Users\/USER\/*\/bigdecimal.bundle",
+    "name" : "bigdecimal.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4554256384,
+    "size" : 8192,
+    "uuid" : "e00eec87-7509-3861-8439-b08197352dc1",
+    "path" : "\/Users\/USER\/*\/wait.bundle",
+    "name" : "wait.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4555620352,
+    "size" : 135168,
+    "uuid" : "603ff77d-39b4-3d4f-a788-f45af946348a",
+    "path" : "\/Users\/USER\/*\/socket.bundle",
+    "name" : "socket.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4554207232,
+    "size" : 4096,
+    "uuid" : "b1754ed8-ef6b-3a0d-8fb8-69c88a762c0b",
+    "path" : "\/Users\/USER\/*\/nonblock.bundle",
+    "name" : "nonblock.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4554129408,
+    "size" : 12288,
+    "uuid" : "632eb9d0-ffbf-34ce-a11d-ee73b41f4205",
+    "path" : "\/Users\/USER\/*\/digest.bundle",
+    "name" : "digest.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4554571776,
+    "size" : 245760,
+    "uuid" : "3b4e89e1-d9a3-33d1-bf7f-c7abcc670e88",
+    "path" : "\/Users\/USER\/*\/openssl.bundle",
+    "name" : "openssl.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4556124160,
+    "size" : 327680,
+    "uuid" : "1407cd24-27dd-33d9-8142-820f027482fa",
+    "path" : "\/usr\/local\/Cellar\/openssl@1.1\/1.1.1w\/lib\/libssl.1.1.dylib",
+    "name" : "libssl.1.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4559642624,
+    "size" : 1818624,
+    "uuid" : "850cccd1-d6ff-3611-8989-408f7ec66041",
+    "path" : "\/usr\/local\/Cellar\/openssl@1.1\/1.1.1w\/lib\/libcrypto.1.1.dylib",
+    "name" : "libcrypto.1.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4552769536,
+    "size" : 16384,
+    "uuid" : "5e4d02ef-2754-3311-90dc-34be76da7c8f",
+    "path" : "\/Users\/USER\/*\/etc.bundle",
+    "name" : "etc.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4552114176,
+    "size" : 12288,
+    "uuid" : "206af3cf-83ea-3b31-8cc6-0956b46c2670",
+    "path" : "\/Users\/USER\/*\/escape.bundle",
+    "name" : "escape.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4551757824,
+    "size" : 28672,
+    "uuid" : "44860060-13c8-3f87-a876-17499ace2368",
+    "path" : "\/Users\/USER\/*\/generator.bundle",
+    "name" : "generator.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4550955008,
+    "size" : 20480,
+    "uuid" : "9b40ee4e-a834-321b-907d-3cf94a004f03",
+    "path" : "\/Users\/USER\/*\/parser.bundle",
+    "name" : "parser.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4551114752,
+    "size" : 208896,
+    "uuid" : "d9d0cec0-8a61-38ee-b997-6c9ac1302ceb",
+    "path" : "\/Users\/USER\/*\/date_core.bundle",
+    "name" : "date_core.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4550467584,
+    "size" : 16384,
+    "uuid" : "7d0041ff-abf1-3f8c-95bb-57d9cf9e511c",
+    "path" : "\/Users\/USER\/*\/strscan.bundle",
+    "name" : "strscan.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4550066176,
+    "size" : 24576,
+    "uuid" : "f1206355-491d-3696-99dc-467637e06e41",
+    "path" : "\/Users\/USER\/*\/stringio.bundle",
+    "name" : "stringio.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4549971968,
+    "size" : 16384,
+    "uuid" : "606b086b-6a23-3c90-b9e1-fc4ac2372223",
+    "path" : "\/Users\/USER\/*\/psych.bundle",
+    "name" : "psych.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4550193152,
+    "size" : 98304,
+    "uuid" : "efe81198-8d8a-3da6-8958-936f06b25131",
+    "path" : "\/usr\/local\/Cellar\/libyaml\/0.2.5\/lib\/libyaml-0.2.dylib",
+    "name" : "libyaml-0.2.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4549439488,
+    "size" : 49152,
+    "uuid" : "1c064563-05b4-31a6-8334-1b20d248d63a",
+    "path" : "\/Users\/USER\/*\/zlib.bundle",
+    "name" : "zlib.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4549758976,
+    "size" : 81920,
+    "uuid" : "9465408f-73c9-346b-986d-f8a0c8590651",
+    "path" : "\/usr\/local\/Cellar\/zlib\/1.3.1\/lib\/libz.1.3.1.dylib",
+    "name" : "libz.1.3.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4549279744,
+    "size" : 12288,
+    "uuid" : "453ae30c-b348-3b6a-bca3-dbedd8fabca9",
+    "path" : "\/Users\/USER\/*\/bootsnap.bundle",
+    "name" : "bootsnap.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4483706880,
+    "size" : 49152,
+    "uuid" : "a229d472-b23a-36d8-bc0d-a74b35be0bec",
+    "path" : "\/Users\/USER\/*\/msgpack.bundle",
+    "name" : "msgpack.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4476456960,
+    "size" : 24576,
+    "uuid" : "c201d58e-8ba8-377c-b416-0be748a4d55a",
+    "path" : "\/Users\/USER\/*\/pathname.bundle",
+    "name" : "pathname.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4476354560,
+    "size" : 4096,
+    "uuid" : "007f3d86-5101-3044-89b8-b2884f83dbac",
+    "path" : "\/Users\/USER\/*\/monitor.bundle",
+    "name" : "monitor.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4475179008,
+    "size" : 8192,
+    "uuid" : "1c752604-fa42-3b90-8d58-4a9ab1b7831b",
+    "path" : "\/Users\/USER\/*\/transdb.bundle",
+    "name" : "transdb.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4475121664,
+    "size" : 8192,
+    "uuid" : "b702c32c-dd73-3fc1-908b-14a4a60571ac",
+    "path" : "\/Users\/USER\/*\/encdb.bundle",
+    "name" : "encdb.bundle"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4484169728,
+    "size" : 3448832,
+    "uuid" : "5c3b9a9b-6bcf-367e-a268-dd54ae124558",
+    "path" : "\/Users\/USER\/*\/libruby.3.1.dylib",
+    "name" : "libruby.3.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4479782912,
+    "size" : 376832,
+    "uuid" : "6329e5e8-f4e6-3534-90bd-0972dd970ccd",
+    "path" : "\/usr\/local\/Cellar\/gmp\/6.3.0\/lib\/libgmp.10.dylib",
+    "name" : "libgmp.10.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 140703125372928,
+    "size" : 196608,
+    "uuid" : "785a360c-c838-3095-94d4-2cc4faf5d5de",
+    "path" : "\/usr\/libexec\/rosetta\/runtime",
+    "name" : "runtime"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4469301248,
+    "size" : 344064,
+    "uuid" : "3e6996b2-eddb-3269-b841-bb2b3c546f07",
+    "path" : "\/Library\/Apple\/*\/libRosettaRuntime",
+    "name" : "libRosettaRuntime"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 4334997504,
+    "size" : 4096,
+    "uuid" : "6d949c11-6bcd-30e2-a043-02da916bb93a",
+    "path" : "\/Users\/USER\/*\/ruby",
+    "name" : "ruby"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703364034560,
+    "size" : 241656,
+    "uuid" : "54b50613-cc4b-3ace-a9ec-919ea83d5e5f",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703364276224,
+    "size" : 49144,
+    "uuid" : "d70de43a-2804-340a-804c-5d316c1e013b",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703362883584,
+    "size" : 557048,
+    "uuid" : "d7acdb03-4453-3d57-9b53-9f338bca635d",
+    "path" : "\/usr\/lib\/system\/libsystem_c.dylib",
+    "name" : "libsystem_c.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703364476928,
+    "size" : 45048,
+    "uuid" : "4ea5bbf7-8ce1-37ab-916b-d14ffd7d2b4b",
+    "path" : "\/usr\/lib\/system\/libsystem_platform.dylib",
+    "name" : "libsystem_platform.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703361462272,
+    "size" : 106495,
+    "uuid" : "99ca3790-e29f-3272-9a76-07a8af07384b",
+    "path" : "\/usr\/lib\/system\/libsystem_trace.dylib",
+    "name" : "libsystem_trace.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703497613312,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.analyticsd",
+    "size" : 180213,
+    "uuid" : "1310ad40-1409-3708-9d73-64ccf955bdae",
+    "path" : "\/System\/Library\/PrivateFrameworks\/CoreAnalytics.framework\/Versions\/A\/CoreAnalytics",
+    "name" : "CoreAnalytics",
+    "CFBundleVersion" : "1"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703362580480,
+    "size" : 290802,
+    "uuid" : "ffb968b0-807c-38bf-ae61-50a96c8d310c",
+    "path" : "\/usr\/lib\/system\/libdispatch.dylib",
+    "name" : "libdispatch.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703409840128,
+    "CFBundleShortVersionString" : "7.0",
+    "CFBundleIdentifier" : "com.apple.security",
+    "size" : 3858422,
+    "uuid" : "0903cf1e-d318-3576-9203-b52e5b5d4b36",
+    "path" : "\/System\/Library\/Frameworks\/Security.framework\/Versions\/A\/Security",
+    "name" : "Security",
+    "CFBundleVersion" : "61123.141.1"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703623872512,
+    "CFBundleShortVersionString" : "4.0",
+    "CFBundleIdentifier" : "com.apple.Heimdal",
+    "size" : 745467,
+    "uuid" : "3af64aac-d2da-3fe3-9823-388be5faf47b",
+    "path" : "\/System\/Library\/PrivateFrameworks\/Heimdal.framework\/Versions\/A\/Heimdal",
+    "name" : "Heimdal",
+    "CFBundleVersion" : "2.0"
+  },
+  {
+    "source" : "P",
+    "arch" : "x86_64",
+    "base" : 140703663382528,
+    "CFBundleShortVersionString" : "4.0",
+    "CFBundleIdentifier" : "com.apple.GSS",
+    "size" : 319480,
+    "uuid" : "aaeda33e-d84c-37b0-85ef-be42ad05877a",
+    "path" : "\/System\/Library\/Frameworks\/GSS.framework\/Versions\/A\/GSS",
+    "name" : "GSS",
+    "CFBundleVersion" : "2.0"
+  }
+],
+  "sharedCache" : {
+  "base" : 140703359860736,
+  "size" : 25769803776,
+  "uuid" : "4fbce036-4b8b-3f24-954d-e2c0e9f9cc90"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=436.5M resident=0K(0%) swapped_out_or_unallocated=436.5M(100%)\nWritable regions: Total=2.6G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=2.6G(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nKernel Alloc Once                    8K        1 \nMALLOC                             2.2G      128 \nMALLOC guard page                   96K        6 \nRosetta Arena                     4096K        2 \nRosetta Generic                   1556K      386 \nRosetta IndirectBranch             256K        1 \nRosetta JIT                      128.0M        1 \nRosetta Return Stack               720K       64 \nRosetta Thread Context             640K       64 \nSTACK GUARD                         12K        3 \nStack                             86.3M       43 \nStack Guard                       56.2M       40 \nVM_ALLOCATE                      107.9M     3647 \nVM_ALLOCATE (reserved)              56K       10         reserved VM address space (unallocated)\n__CTF                               824        1 \n__DATA                            14.7M      373 \n__DATA_CONST                      12.6M      247 \n__DATA_DIRTY                       459K       97 \n__FONT_DATA                        2352        1 \n__LINKEDIT                       181.7M       80 \n__OBJC_RO                         71.8M        1 \n__OBJC_RW                         2198K        2 \n__TEXT                           254.8M      378 \nmapped file                       43.9M      209 \nshared memory                       68K        5 \n===========                     =======  ======= \nTOTAL                              3.2G     5791 \nTOTAL, minus reserved VM space     3.2G     5791 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "name" : "puma srv tp 003"
+  }
+},
+  "logWritingSignature" : "9ef78b88cd504bd866447df85a51fe4dad60f06b",
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "60f8ddccefea4203d95cbeef",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000025
+    },
+    {
+      "rolloutId" : "62745b8e85854550ad70b6e4",
+      "factorPackIds" : {
+        "SIRI_TTS_DEVICE_TRAINING" : "6539d7f333b9b7499c6f1b63"
+      },
+      "deploymentId" : 240000073
+    }
+  ],
+  "experiments" : [
+
+  ]
+},
+  "reportNotes" : [
+  "PC register does not match crashing frame (0x0 vs 0x7FF89E372A78)"
+]
+}
