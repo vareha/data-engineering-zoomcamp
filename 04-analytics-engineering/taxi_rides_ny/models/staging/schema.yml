@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: studious-vector-447814-r7
+    schema: nytaxi
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
