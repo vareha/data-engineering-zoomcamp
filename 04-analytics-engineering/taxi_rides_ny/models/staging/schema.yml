@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: staging
     database: studious-vector-447814-r7
-    schema: nytaxi
+    schema: nytaxi_2
 
     tables:
       - name: green_tripdata
